@@ -1,0 +1,15 @@
+document.writeln("<!DOCTYPE html>");
+document.writeln("<html lang=\'en-us\'>");
+document.writeln("<head>");
+document.writeln("<meta charset=\'UTF-8\'>");
+document.writeln("<title>Real-Time-Tactics遊戲工作室</title>");
+document.writeln("<link rel=\'stylesheet\' href=\'head.css\'>");
+document.writeln("</head>");
+document.writeln("<body>");
+document.writeln("<div class=\'head\'>Real-Time-Tactics遊戲</div>");
+document.writeln("<div class=\'strip\'>");
+document.writeln("<td><a href=\'index.html\' class=\'centertxt\'> 首頁</a></td>");
+document.writeln("<td><a href=\'GameScene.html\' class=\'centertxt\'> 遊戲</a></td>");
+document.writeln("</div>");
+document.writeln("</body>");
+document.writeln("</html>");

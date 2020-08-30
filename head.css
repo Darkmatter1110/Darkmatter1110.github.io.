@@ -1,0 +1,24 @@
+body{
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Image/game.png') no-repeat 0% 20%/ cover;
+}
+
+.head{
+background-color:#003344;color:white;font-weight:bold;font-size:30px;
+text-align:center;padding:10px;
+}
+.strip{
+background-image: url(Image/bot.png);background-repeat : no-repeat;
+background-position : center;background-size: 2000px 35px;
+color:white;font-weight:bold;font-size:15px;
+text-align:center;padding:7px;
+}
+#tovideo{
+ width:700px;
+ height:500px;
+ position:absolute;
+}
+.centertxt{
+text-align:center;
+ color:white;
+ text-decoration:none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="Aspose.Words for .NET 17.1.0.0" />
+<title>RTT遊戲工作室</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="Game/unitygame/TemplateData/UnityProgress.js"></script>
+<script src="Game/unitygame/Build/UnityLoader.js"></script>
+    <script>	
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Game/unitygame/Build/unitygame.json", {onProgress: UnityProgress});
+    </script>
+<script src="text/javascript">
+var toweb = document.getElementById('toweb');
+toweb.onclick = fuction{
+window.location.href='RTT_vedio.html';
+}
+
+</script>
+</head>
+<body >
+<script type ="text/javascript" src="head.js"></script>
+<center>
+<div style="color:white">下列遊戲使用Unity WebGL,如果用Google chrome無法開啟<br>請使用其他瀏覽器 如(Internet Explorer)</div>
+<div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      </div>
+    </div>
+</center>
+</body>
+</html>

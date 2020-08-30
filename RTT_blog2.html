@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="Aspose.Words for .NET 17.1.0.0" />
+<style type="text/css">
+.blog{
+background-image: url(Image/blog.png);background-repeat : no-repeat;
+background-position : center;background-size: 50px 35px;
+text-align:center;
+ color:white;
+  text-decoration:none;
+}
+.yellowmessage{
+background: url(Image/yellowmsn.png);
+background-repeat : no-repeat;
+width:700px;
+height:250px;
+background-position:100%;
+background-size:contain;
+text-align:center;
+}
+.string{
+max-width: 370px;
+overflow: hidden;
+word-break: break-all;
+word-wrap: break-word;
+white-space: normal;
+}
+</style>
+<script type="text/javascript" src="blogLock.js"></script>
+</head>
+<body onload="msnsee();">
+<script type ="text/javascript" src="head.js"></script>
+<center>
+<div class="blog">留言板</div>
+</center>
+<div style="background:white; width:500px; height:300px;margin:0 auto;">
+使用者:<input type="button" id="ritian" onclick="inputname('ritian');"style=" width:70px; height:20px;" value="輸入名稱"/>
+<br/>
+<textarea id="dome" style="width:496px; height:250px;"></textarea>
+<div style="text-align:right">
+<input id="postBt" type="button" style="border:none; background-color:gray; color:white; width:80px; height:30px;" onclick="saveStorage('dome');" value="發布"/>
+<input id="clearBt" type="button" style="border:none; background-color:gray; color:white; width:80px;height:30px;" onclick="cleartextare('dome');"value="清空"/>
+</div>
+</div>
+<p id="msg">
+</p>
+</body>
+</html>
